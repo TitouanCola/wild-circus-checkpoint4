@@ -20,8 +20,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "back": "nodemon ./src-back/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "create-db": "mysql -u root -p wildCircus < ./src-back/install.sql",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
