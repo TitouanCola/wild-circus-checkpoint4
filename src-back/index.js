@@ -4,6 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
+const voteRouter = require('./routes/vote.js')
 
 const port = process.env.PORT || 8000;
 
@@ -17,6 +18,7 @@ app.use(cors({
 }));
 
 app.use('/', indexRouter);
+app.use('/vote', )
 
 app.listen(port, (err) => {
   if (err) {
