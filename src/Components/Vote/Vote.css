@@ -1,0 +1,23 @@
+.Vote {
+  margin-top: 1em;
+  border-top: 4px solid #D1A39D;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.voteButton {
+  height: 15px;
+  width: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}

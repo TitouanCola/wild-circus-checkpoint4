@@ -18,7 +18,7 @@ app.use(cors({
 }));
 
 app.use('/', indexRouter);
-app.use('/vote', )
+app.use('/vote', voteRouter)
 
 app.listen(port, (err) => {
   if (err) {

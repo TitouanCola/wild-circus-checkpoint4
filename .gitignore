@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 ./src-back/key.js
+./src-back/routes/config.js
 
 # dependencies
 /node_modules
