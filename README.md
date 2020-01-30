@@ -36,3 +36,12 @@ npm start
 ## WIREFRAME / CMD / PRODUCT BACKLOG :
 
 https://docs.google.com/spreadsheets/d/1uH6HBAAEPxYc0BkCHtWaMBlc9-ZN06XHaVuKhw6S_Ko/edit?usp=sharing
+
+-------------------------------------------------
+
+## How to use : 
+
+go to /admin to add regions to the database (delete button isn't functionnal).
+They will apear in the "Vote for next mounth's destination" section.
+
+You can know vote for a fictionnal region !
