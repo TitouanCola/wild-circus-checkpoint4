@@ -30,3 +30,9 @@ nodemon /src-back/index.js
 and
 
 npm start
+
+-------------------------------------------------
+
+## WIREFRAME / CMD / PRODUCT BACKLOG :
+
+https://docs.google.com/spreadsheets/d/1uH6HBAAEPxYc0BkCHtWaMBlc9-ZN06XHaVuKhw6S_Ko/edit?usp=sharing
