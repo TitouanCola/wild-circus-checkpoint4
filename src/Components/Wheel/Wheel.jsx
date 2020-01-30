@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import wheelPic from '../../images/wheel.png';
 import cursorImage from '../../images/cursor.png';
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Vote.css';
-const requestIp = require('request-ip');
 
 function Vote() {
   const addressAPI = 'http://localhost:8000';
@@ -21,7 +20,6 @@ function Vote() {
     }, []);
 
     const handleVote = (param) => {
-      const voteName = param.regionName
       axios.put(`${addressAPI}/vote/`, {
         name: param.regionName,
       })
